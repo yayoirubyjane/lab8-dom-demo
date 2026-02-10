@@ -1,9 +1,10 @@
 .wrapper {
     font-family: "Zalando Sans SemiExpanded", sans-serif;
+    background-color: #e4ddcc;
+    min-height: 100vh;
 }
 
 .container-lg {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +20,26 @@
     height: auto;
     border: none;
     border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(68, 58, 53, 0.15);
+    background-color: #f8f4ee;
+    color: #252525;
+}
+
+.card h1, .card h4 {
+    color: #443A35; 
 }
 
 .card input {
     padding: 9px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.card button {
+    padding: 5px 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 16px;
